@@ -49,7 +49,7 @@ const Estimation = () => {
                     </div>
                 </div>
 
-                {(isBudgetAvailable && isChangingSanitary && isChangingFloorTiling) 
+                {((isBudgetAvailable && isChangingSanitary && isChangingFloorTiling) || (isChangingSanitary || isChangingFloorTiling))
                     ? <div className='total_wrapper'>
                     <h5 className='total_header'>Total</h5>
                     {overallTotal === budget && <h5 className='total_price'>${overallTotal.toLocaleString("en-US", { maximumFractionDigits: 2})}</h5>}
