@@ -1,0 +1,29 @@
+.selection_button {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #CCE1FF;
+    box-shadow: 0px 1px 8px rgba(46, 113, 255, 0.12);
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: left;
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 3.4rem;
+    color: #07172F;
+    text-transform: capitalize;
+}
+
+.selection_button__active {
+    width: 100%;
+    border: 1px solid #CCE1FF;
+    box-shadow: 0px 1px 8px rgba(46, 113, 255, 0.12);
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: left;
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 3.4rem;
+    text-transform: capitalize;
+    background: #2E71FF;
+    color: #FFF;
+}

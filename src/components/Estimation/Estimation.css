@@ -1,0 +1,50 @@
+.estimation_wrapper {
+    margin-top: 40px;
+}
+
+.showcase_container {
+    display: grid;
+    gap: 28px;
+    margin-top: 40px;
+}
+
+.showcase_wrapper,
+.total_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.showcase_header,
+.showcase_price {
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 104.9%;
+    color: #07172F;
+}
+
+.total_wrapper {
+    margin-top: 40px;
+}
+
+.total_header,
+.total_price {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    color: #07172F;
+}
+
+.total_price_green {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    color: green;
+}
+
+.total_price_red {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    color: red;
+}

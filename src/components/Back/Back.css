@@ -1,0 +1,24 @@
+.backButton {
+    background-color: transparent;
+    min-width: 57px;
+    max-width: 57px;
+    padding: 15px 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    border: none;
+    outline: none;
+    color:#2E71FF;
+    align-items: center;
+    display: flex;
+}
+
+button svg {
+    min-width: 20px;
+    max-width: 20px;
+    margin-right: 8px;
+}
+
+/* button svg p {
+    align-items: center;
+} */

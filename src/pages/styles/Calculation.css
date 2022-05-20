@@ -1,0 +1,11 @@
+.wrapper {
+    height: 100vh;
+    background: #FAFCFF;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.image_wrapper {
+    width: 100%;
+    height: 100vh;
+}

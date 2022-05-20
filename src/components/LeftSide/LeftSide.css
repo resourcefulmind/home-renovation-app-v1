@@ -1,0 +1,6 @@
+.leftSide_wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 2.1rem 3.4rem 12rem;
+}
